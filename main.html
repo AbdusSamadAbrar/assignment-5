@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="bg-slate-100 pb-6">
+    <!-- header -->
+    <header>
+        <nav class="px-20 pt-5">
+            <div class="navbar bg-base-100 shadow-sm rounded-lg flex justify-between">
+                <div class="flex items-center gap-2">
+                    <img class="pl-4 w-12" src="resources/logo.png" alt="">
+                    <p class="text-xl">Dev<span class="font-bold">Board</span></p>
+                </div>
+                <div>
+                    <a href="index.html">
+                        <button class="bg-blue-400 p-2 rounded-lg mr-4 w-28 cursor-pointer text-white">Back To Desk</button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- main body -->
+    <main class="mx-20">
+        <h1 class="justify-center flex mt-6 text-lg font-bold">Blogs</h1>
+        <div>
+            <!-- question-1 -->
+           <div>
+            <h2 class="bg-white font-bold mt-5 p-3 rounded-xl">Question-1: What are the different ways to select an element in the DOM?</h2>
+            <hr class="border-dotted border-gray-200">
+            <h3 class="bg-white text-gray-500 p-3 rounded-xl">DOM theke element select kora hoy getElementById() diye ID, getElementsByClassName() diye class, getElementsByTagName() diye tag name, ar querySelector() ba querySelectorAll() diye ID, class, o tag sobkichu select kora jay.</h3>
+           </div>
+           <!-- question-2 -->
+            <div>
+            <h2 class="bg-white font-bold mt-5 p-3 rounded-xl">Question-2: What is the difference between innerHTML, innerText, and textContent?</h2>
+            <hr class="border-dotted border-gray-200">
+            <h3 class="bg-white text-gray-500 p-3 rounded-xl">innerHTML tag shoho content dey, innerText visible text dey, ar textContent hidden text shoho puro text dey.</h3>
+            </div>
+            <!-- question-3 -->
+            <div>
+            <h2 class="bg-white font-bold mt-5 p-3 rounded-xl">Question-3: What is event delegation in the DOM?</h2>
+            <hr class="border-dotted border-gray-200">
+            <h3 class="bg-white text-gray-500 p-3 rounded-xl">Event delegation hocche ekta parent element e event listener boshiye tar child elements gulor event handle kora.</h3>
+            </div>
+            <!-- question-4 -->
+            <div>
+            <h2 class="bg-white font-bold mt-5 p-3 rounded-xl">Question-4: What is event bubbling in the DOM?</h2>
+            <hr class="border-dotted border-gray-200">
+            <h3 class="bg-white text-gray-500 p-3 rounded-xl">Event bubbling hocche ekta child element e event trigger hole se upore parent elements gulo sequentially propagate kora.</h3>
+            </div>
+            <!-- question-5 -->
+            <div>
+            <h2 class="bg-white font-bold mt-5 p-3 rounded-xl">Question-5: How do you create, add, and remove elements using JavaScript?</h2>
+            <hr class="border-dotted border-gray-200">
+            <h3 class="bg-white text-gray-500 p-3 rounded-xl">Create: document.createElement('tag'), Add: parent.appendChild(child), Remove: element.remove().</h3>
+            </div>
+        </div>
+         
+    </main>
+</body>
+</html>
